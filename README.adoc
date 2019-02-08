@@ -133,7 +133,7 @@ Reads the value from external temperature sensor.
 
 #### Returns
 
-Temperature in °C  from `-55` to +`125`.
+Temperature in °C  from `-55` to `+125`.
 
 ---
 
