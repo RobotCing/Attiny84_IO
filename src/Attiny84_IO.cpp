@@ -19,6 +19,16 @@ Cing::Cing(){}
 OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
 //--------------------------------------------
+//              Stepper Motors
+//--------------------------------------------
+#define DIRA 7
+#define STEPA 8
+#define SLEEPA 5
+
+#define DIRB 9
+#define STEPB 10
+#define SLEEPB 6
+//--------------------------------------------
 //              Motors
 //--------------------------------------------
 void Cing::RunMotor(String motor,int speed,String mode)
